@@ -1,0 +1,44 @@
+{
+  "server": "chart",
+  "api": [
+    {
+      "name": "select",
+      "mock": {
+        "name": "@cname()",
+        "value": "@increment(100000)",
+        "id": "@id",
+        "selected": "@boolean",
+        "children|1-6": [
+          {
+            "name": "@cname()",
+            "value": "@increment(100000)",
+            "id": "@id",
+            "selected": "@boolean",
+            "ligting_icon": "http://localhost:8080/chart/floor1/展示.png",
+            "ligtingoff_icon": "http://localhost:8080/chart/floor1/展示.png",
+            "children|1-20": [
+              {
+                "name": "@cname()",
+                "value": "@increment(100000)",
+                "selected": "@boolean",
+                "id": "@id",
+                "ligting_icon": "http://localhost:8080/chart/floor2/360搜索.png",
+                "ligtingoff_icon": "http://localhost:8080/chart/floor2/360搜索.png",
+                "children|1-20": [
+                  {
+                    "name": "@cname()",
+                    "value": "@increment(100000)",
+                    "selected": "@boolean",
+                    "id": "@id",
+                    "ligtingoff_icon": "http://localhost:8080/chart/floor3/360搜索_normal.png",
+                    "ligting_icon": "http://localhost:8080/chart/floor3_select/360搜索_click.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
